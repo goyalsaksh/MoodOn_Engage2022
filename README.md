@@ -35,3 +35,9 @@ Creating a project that is effective for the modern generation.Learnt a great de
 ## What I learned
 
 I learnt about the transfer learning approach for the model, which assisted us in face identification, as well as how to develop basic web pages using HTML, CSS and how to deploy the model on the web using flask.
+
+Screenshots
+
+![emotion](/screenshots/img2.png)      ![contact](/screenshots/img3.png)
+![login/signup](/screenshots/img4.png)  ![about](/screenshots/img5.png)
+
