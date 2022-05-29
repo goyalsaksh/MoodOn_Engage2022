@@ -16,7 +16,7 @@ In today's world where everyone is striving for achievement, making a few poor d
     **IMDB** website and for songs it redirects them to **Spotify** website.
 
 ## Tech Stack Used
-<img src="https://img.shields.io/badge/Python-ColourCode?logo=python&logoColor=ColorName&style=ShieldStyle" />
+<img src="https://img.shields.io/badge/Python-ColourCode?logo=python&logoColor=ColorName&style=ShieldStyle" /><img src="https://img.shields.io/badge/HTML-ColourCode?logo=HTML&logoColor=ColorName&style=ShieldStyle" /><img src="https://img.shields.io/badge/CSS-ColourCode?logo=CSS&logoColor=ColorName&style=ShieldStyle" /><img src="https://img.shields.io/badge/flask-ColourCode?logo=flask&logoColor=ColorName&style=ShieldStyle" />
 **Python** is the programming language used to create the emotion recognition . CV2, TensorFlow, NumPy, matplotlib, and other libraries are also utilized. The model is build using the transfer learning approach for which MobileNet model is used. The FER-2013 dataset, which comprises around 35000 photos, was utilized for model training and validation. 
   This model is deployed on a website created with **HTML** and **CSS** using the **flask framework**. Based on the six emotions, a new dataset of movies and music was constructed. The data from movies and songs was utilized to create the various templates that correlate to various emotions. 
 
