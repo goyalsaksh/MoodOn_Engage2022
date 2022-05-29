@@ -41,7 +41,9 @@ I learnt about the transfer learning approach for the model, which assisted us 
 Resources
 
 Demo video : 
+
 Documentation : https://drive.google.com/file/d/1xBSndOXKU9NHuUyz7l-Tafp-i0DZV2Pg/view?usp=sharing
+
 Screenshots
 
 ![emotion](/screenshots/img2.png)      ![contact](/screenshots/img3.png)
