@@ -40,7 +40,7 @@ I learnt about the transfer learning approach for the model, which assisted us 
 
 ## Resources
 
-Demo video : 
+Demo video : https://drive.google.com/file/d/1sl732Vq2yGpghaJ5oU34wz9lWA339kMx/view?usp=sharing
 
 Documentation : https://drive.google.com/file/d/1xBSndOXKU9NHuUyz7l-Tafp-i0DZV2Pg/view?usp=sharing
 
