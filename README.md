@@ -1,5 +1,5 @@
 # MoodOn_Engage2022
-![interface.jpg]
+
 ## Inspiration
 
 In today's world where everyone is striving for achievement, making a few poor decisions occasionally. As a result, **MoodOn** was designed to assist people in reduce stress by recommending movies and songs based on their emotions.
