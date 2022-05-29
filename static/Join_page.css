@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Yatra+One');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+  background-image: url(/static/join.jpg);
+
+}
+
+h1 {
+  margin-top: 40px;
+  text-align: center;
+  font-family: 'Yatra One', cursive;
+  color: rgb(66, 40, 234);
+}
+
+.wrapper {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Yatra One', cursive;
+
+}
+
+.wrapper h2 {
+  font-family: 'Yatra One', cursive;
+
+  color: rgb(255, 0, 111);
+  margin-bottom: 25px;
+}
+
+.hello {
+  margin-top: 4px;
+  font-family: 'Yatra One', cursive;
+  color: brown;
+}
+
+footer {
+  color: blueviolet;
+}

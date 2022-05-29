@@ -1,0 +1,224 @@
+<html>
+    <head>
+	    <title>Contact Us page</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<link rel="stylesheet" href="/static/contact.css">
+	<style>*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins',sans-serif;
+    }
+    .header{
+        width: 100%;
+        height: 100vh;
+       background-color: black;
+        background-position: center;
+        background-size: cover;
+        overflow-x: hidden;
+    }
+    
+    nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 8%;
+        transition: background 1s;
+    }
+    
+    nav .logo{
+        display: flex;
+        align-items: center;
+        font-size: 26px;
+        font-weight: 600;
+        color: #FFF;
+    }
+    
+    nav .logo img{
+        width: 40px;
+        margin-right: 10px;
+        
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 10px 20px;
+        
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #FFF;
+        font-weight: 800;
+    }
+    nav:hover{
+        background: #fff;
+    }
+    
+    nav:hover .logo{
+        color: #333;
+    }
+    
+    nav:hover ul li a{
+        color: #333;
+    }
+    
+    .content{
+        margin-top: 9%;
+        margin-left: 9%;
+        color: #FFF;
+    
+    
+    }
+    
+    .content h1{
+        font-size: 120PX;
+        font-weight: 600;
+        line-height: 140px;
+    }
+    
+    .content p{
+        max-width: 500px;
+        line-height: 28px;
+        opacity: 0;
+    }
+    
+    .links{
+        margin-top: 30px;
+        opacity: 0;
+    }
+    .links a{
+        color: #FFF;
+        display: inline-block;
+        text-decoration: none;
+    
+    }
+        .links a:hover{
+        color: blue;
+
+    }
+    .btn:hover{
+        background-color: rgb(0, 195, 255);
+    }
+    .btn{
+        border: 2px solid #fff;
+        padding: 10px 35px;
+        border-radius: 30px;
+        margin-right: 15px;
+        font-weight: 700;
+    }
+	.slide-left{
+        animation: slideleft 1s linear forwards;
+        
+    }
+    
+    .content h1{
+        font-family: Brush Script MT,cursive;
+    }
+    
+    @keyframes slideleft{
+        0%{
+            transform: translate(100px);
+            opacity: 0;
+        }
+        100%{
+            transform: translate(0px);
+            opacity: 1;
+        }
+        
+    }
+    
+    p.slide-left{
+        animation-delay: 1s;
+    }
+    .links.slide-left{
+        animation-delay: 2s;
+        color:blue;
+    }
+</style>
+    </head>
+
+    <body>
+		<div class="header">
+		<nav>
+            <div class="logo">
+                <img src="/static/logo.png" alt="">
+                <span>MoodOn</span>
+            </div>
+            <ul>
+                <li><a href="http://localhost:5000/">HOME</a></li>
+                
+                <li><a href="http://localhost:5000/templates/contact">CONTACT</a></li>
+                <li><a href="http://localhost:5000/templates/join_page">ABOUT</a></li>
+                
+                <li><a href="http://localhost:5000/templates/main">LOGIN</a></li>
+            </ul>
+        </nav>
+		  
+	
+	    <section class="background firstsection">
+		    
+			
+	    </section>
+	</div>
+	    <section class="service">
+		
+		    <!-- Heading-->
+		    <h1 class="h-primary center"
+			    style="margin-top:30px;">
+                
+			    Options to Contact
+		    </h1>
+		    <div id="service">
+			    <div class="box">
+				    <!-- Form -->
+				    <img src=
+                    "/static/option1.jpg"
+					alt= "color_image">
+				    <br>
+				
+				    <!-- Displaying text at
+					the center of the box-->
+				    <p class="center">
+                   
+					
+                        <br><a href="http://localhost:5000/templates/form">People can fill up the form and send us the problem </a>                   
+				    </p>
+
+			    </div>
+			    <div class="box">
+				
+				    <!-- Email -->
+				    <img src=
+                    "/static/option2.jpg"
+				    alt= "color_image">
+				    <br>
+				
+				    <!-- Displaying text at
+				    the center of the box-->
+				    <p class="center">
+				    	<br><a href="mailto:goyalsakshi1229@gmail.com">Use this Email to send us about the problem faced </a>
+				    </p>
+
+			    </div>
+			    <div class="box">
+				    <img src=
+                        "/static/option3.png"
+					    alt= "color_image">
+				    <br>
+				
+				    <!-- Displaying text at
+					the center of the box-->
+                    <br>
+				    <p class="center">
+					    Toll Free Number:+1800 500 700 800
+				    </p>
+
+			    </div>
+		    </div>
+	    </section>
+	   
+    </body>
+
+</html>
